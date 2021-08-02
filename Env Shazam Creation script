@@ -1,0 +1,10 @@
+conda create --name shazamEnv
+conda activate shazamEnv
+conda install python=3.7.0
+pip install tensorflow==2.2.0
+pip install keras==2.4.3
+pip install --upgrade pip 
+pip install matplotlib
+pip install ipywidgets
+pip install -U scikit-learn
+conda deactivate
